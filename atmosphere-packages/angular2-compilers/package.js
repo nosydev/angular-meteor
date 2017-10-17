@@ -1,13 +1,13 @@
 Package.describe({
-  name: 'angular2-compilers',
+  name: 'angular2-compilers-no-sass',
   version: '0.6.6',
-  summary: 'Angular 2 Templates, HTML and TypeScript compilers for Meteor',
-  git: 'https://github.com/Urigo/angular2-meteor/',
+  summary: 'Angular 2 Templates, HTML and TypeScript compilers for Meteor without sass / scss',
+  git: 'https://github.com/nosydev/angular-meteor/',
   documentation: 'README.md'
 });
 
 Package.registerBuildPlugin({
-  name: 'Angular2 Compilers',
+  name: 'Angular2 Compilers - no sass',
   sources: [
     'plugin/register.js'
   ],
