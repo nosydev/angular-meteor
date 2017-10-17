@@ -9,5 +9,5 @@ Plugin.registerCompiler({
 }, () => new StaticHtmlCompiler());
 
 Plugin.registerCompiler({
-  extensions: ['less', 'scss', 'sass']
+  extensions: ['less']
 }, () => new StyleCompiler());
